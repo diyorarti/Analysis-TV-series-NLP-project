@@ -2,7 +2,7 @@ import gradio as gr
 from theme_classifier import ThemeClassifier
 from character_model import NamedEntityRecognizer, CharacterNetworkGenerator
 from text_classification import JutsuClassifier
-#from character_chatbot import CharacterChatBot
+from character_chatbot import CharacterChatBot
 import os
 from dotenv import load_dotenv
 load_dotenv()
@@ -52,7 +52,7 @@ def classify_text(text_classifcation_model,text_classifcation_data_path,text_to_
     
     return output
 
-#def chat_with_character_chatbot(message, history):
+def chat_with_character_chatbot(message, history):
     character_chatbot = CharacterChatBot("AbdullahTarek/Naruto_Llama-3-8B",
                                          huggingface_token = os.getenv('huggingface_token')
                                          )
