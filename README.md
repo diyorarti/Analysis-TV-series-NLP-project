@@ -94,16 +94,18 @@ https://www.kaggle.com/datasets/leonzatrax/naruto-ep-1-transcript
 ```
 
 
-Technologies Used: 
-1.Python
-2.Gradio: For creating a web-based interface.
-3.Transformers (HuggingFace): For chatbot and text classification models.
-4.Spacy: For named entity recognition (NER).
-5.Scrapy: For web scraping.
-6.PyTorch: For model training and inference.
-7.Pandas: For data handling and manipulation.
-8.NetworkX: For graph-based character network generation.
-9.Pyvis: For network visualization.
+## Technologies Used
+
+- Python  
+- Gradio: For creating a web-based interface.  
+- Transformers (HuggingFace): For chatbot and text classification models.  
+- Spacy: For named entity recognition (NER).  
+- Scrapy: For web scraping.  
+- PyTorch: For model training and inference.  
+- Pandas: For data handling and manipulation.  
+- NetworkX: For graph-based character network generation.  
+- Pyvis: For network visualization.
+
 
 
 
